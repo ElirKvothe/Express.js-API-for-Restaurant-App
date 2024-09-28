@@ -1,0 +1,40 @@
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+.pnpm-debug.log
+
+# Logs
+logs
+*.log
+*.log.*
+
+# dotenv environment files (if you're using dotenv for sensitive configurations)
+.env
+
+# Directory for environment-specific configs
+config/local.js
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Optional IDE/editor settings
+.vscode/
+.idea/
+
+# Logs
+logs/
+*.log
+
+# Ignore any production build files (if applicable)
+build/
+dist/
+
+# Ignore coverage directory for testing
+coverage/
+
+# Ignore database-related files
+*.sqlite
+*.db
